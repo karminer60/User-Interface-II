@@ -3,11 +3,18 @@
 *{
     border:1px solid blue;
 }
-#siteName {
-    text-align:center;
+
     
-}
+
 
 #myName {
+    text-align: center;
+}
+
+#linksStart{
+    text-align: center;
+}
+
+#introduction{
     text-align: center;
 }
