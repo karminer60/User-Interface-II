@@ -18,3 +18,13 @@
 #introduction{
     text-align: center;
 }
+
+#hugePicture img{
+    width:1500px;
+    height:1000px;
+}
+
+#projectPictures img{
+    width: 300px;
+    height:400px;
+}
