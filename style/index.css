@@ -1,5 +1,13 @@
 /* Add CSS styling here */
 
-#header{
+*{
+    border:1px solid blue;
+}
+#siteName {
     text-align:center;
+    
+}
+
+#myName {
+    text-align: center;
 }
