@@ -44,8 +44,20 @@
 #introduction p{
     padding-left:150px;
     padding-right:150px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     padding-top: 30px;
+}
+#introduction a{
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 700px;
+    margin-right: 700px;
+    font-size:20px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    
 }
 
 #hugePicture{
@@ -99,10 +111,12 @@ footer a{
 }
 
 @media( max-width: 800px){
+    
 
 }
 
 @media( max-width: 500px){
+
 
 }
 
