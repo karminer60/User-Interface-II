@@ -112,22 +112,44 @@ footer a{
 
 @media( max-width: 800px){
     #introduction a{
-    width: 21%;
-    text-align:center;
-    margin-left: 40%;
-    margin-right: 25%;
+        width: 21%;
+        text-align:center;
+        margin-left: 40%;
+        margin-right: 25%;
     } 
     
     #projectPictures{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
     }
         
 
 }
 
 @media( max-width: 500px){
+    #linksStart div{
+        display:flex;
+        justify-content: center;
+        font-size: 60%;
+        padding: 2.5% 5%;
+    }
+    #introduction a{
+        font-size: 40;
+        padding: 2% 4%;
+    }
+
+    #hugepicture{
+        width: 5%;
+        height: 15%;
+    }
+
+    #introduction {
+        font-size:: 40%;
+    }
+
+    
 
 }
 
