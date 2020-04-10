@@ -95,6 +95,8 @@ footer{
     justify-content: center;
     background-color:aqua;
     margin: 0rem;
+    width: 100%
+    
 
 }
 
@@ -111,6 +113,13 @@ footer a{
 }
 
 @media( max-width: 800px){
+    #linksStart div{
+        display:flex;
+        justify-content: center;
+        font-size: 60%;
+        padding: 2.5% 5%;    
+
+    }
     #introduction a{
         width: 21%;
         text-align:center;
@@ -124,6 +133,8 @@ footer a{
         align-items: center;
 
     }
+
+    
         
 
 }
@@ -140,15 +151,22 @@ footer a{
         padding: 2% 4%;
     }
 
+    #projectPictures{
+        display: flex;
+        align-items: center;
+    }
+
     #hugepicture{
-        width: 5%;
+        width: 10%;
         height: 15%;
     }
 
     #introduction {
-        font-size:: 40%;
+        font-size: 40%;
     }
 
+
+    
     
 
 }
